@@ -34,12 +34,13 @@ The AhemPreventor is a research project conducted by the Human-Computer Interact
 ### What is included in this release
 * A helper library to define common functions and keep a few global variables constant over all scripts,
 * our jupyter notebooks for extracting features from the labeled .wav files,
+* part of one of the files we extracted data from: AudioData/Uebung-02-reencoded.wav and all labeling files,
 * extracted mfcc features as .npy files,
 * some baseline and some promising neural network architectures (We tested a lot more, but we discarded those that did not yield an acceptable performance except for one simple dense network for comparison,
 * The generated model.h5 files
 
 ### What is not included:
-* The raw data cannot be released to the public due to some of the presenters' privacy concerns. 
+* The raw wav data of most presentations cannot be released to the public due to some of the presenters' privacy concerns. We release part of one of the files as a sample. We could not upload the entire file due to Githubs 100 MB file size limit.
 * We will also not release the tactile system component, which uses one of the trained neural networks to give tactile feedback while listening to a microphone input. We believe this is of little interest to the public / AI community as we used a custom tactile wristband. It would be easier and more accessible to write a small add-on to actuate a smartwatch. In case you'd like access to the tactile component anyway, please shoot us an email!
 
 ### How the mfcc features were calculated (see library.py):
